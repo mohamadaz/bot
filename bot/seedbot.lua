@@ -404,9 +404,13 @@ Commands list :
 
 !banlist
 نمایش افراد بن شده
+1-fun:
+
+!insta [username or shortinstaURL]
+نمایش اطلاعات اینستاگرام فرد
 
 » U can use both "/" and "!" 
-شما میتوانید از دو دستور "!" و "?" استفاده نمایید
+شما میتوانید از دو دستور "!" و "/" استفاده نمایید
 
 » فقط مدیر ها،ناظر ها و ادمین ربات میتوانند ربات را به گروه ادد کنند
 
@@ -415,7 +419,7 @@ Commands list :
 MR.Bot
 Admin:MohamadAz
 Developer:@ho3einkj
-Thank to Use This Bot
+Thanks to Use This Bot
 
 ]]
   }
