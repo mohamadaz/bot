@@ -226,33 +226,21 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(175137924)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[
+    MR.bot
+    Admin :MohamadAz
+    
+    
+    Developer: @ho3einkj
+    
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
-
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
 ]],
     help_text_realm = [[
 Realm Commands:
+
 
 !creategroup [name]
 Create a group
@@ -327,105 +315,107 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+اخراج کردن فرد حتی با ریپلی
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن فرد از گروه حتی با ریپلی
 
 !unban [id]
-You can also do it by reply
+انبن کردن فرد حتی با ریپلی
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست مدیران گروه
 
 !promote [username]
-Promote someone
+ایجاد ادمین جدید همراه با ریپلی
 
 !demote [username]
-Demote someone
+برکنار کردن ادمین همراه با ریپلی
 
 !kickme
-Will kick user
+خروج از گروه
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+تنظیم کردن عکس برای گروه
 
 !setname [name]
-Set group name
+تنظیم کردن اسم برای گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-Return group id or user id
+نشان دادن ایدی  همراه با ریپلی
 
 !help
-Get commands list
+راهنما{همین متن}
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+قفل  [اعضا|اسم|ربات هاوترک گروه 
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+باز کردن قفل  [اعضا|اسم|ربات هاوترک گروه 
 
 !set rules [text]
-Set [text] as rules
+تنظیم قوانین برای گروه
 
 !set about [text]
-Set [text] as about
+تنظیم متن درباره گروه
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-Create/revoke your group link
+ساخت یا تعویض لینک گروه
 
 !link
-Returns group link
+نمایش لینک گروهk
 
 !owner
-Returns group owner id
+نمایش ای دی مدیر گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم کردن فرد به عنوان مدیر اصلی به همراه ریپلی
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم حساسیت به اسپم
 
 !stats
-Simple message statistics
+امار کلی گروه
 
 !save [value] [text]
-Save [text] as [value]
+ذخیره متن
 
 !get [value]
-Returns text of [value]
+نمایش متن
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن لیست مدیران،قوانین و درباره 
 
 !res [username]
-Returns user id
+در آوردن ایدی شخص مورد نظر همراه با ریپلی
 
-!log
-Will return group logs
 
 !banlist
-Will return group ban list
+نمایش افراد بن شده
 
 » U can use both "/" and "!" 
+شما میتوانید از دو دستور "!" و "?" استفاده نمایید
 
-» Only mods, owner and admin can add bots in group
+» فقط مدیر ها،ناظر ها و ادمین ربات میتوانند ربات را به گروه ادد کنند
 
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+» فقط مالک گروه میتواند افراد را کیک ،بن و.... کنند
 
-» Only owner can use res,setowner,promote,demote and log commands
+MR.Bot
+Admin:MohamadAz
+Developer:@ho3einkj
+Thank to Use This Bot
 
 ]]
   }
