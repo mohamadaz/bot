@@ -212,6 +212,7 @@ function create_config( )
     "inrealm",
     "ingroup",
     "inpm",
+    "instagram",
     "banhammer",
     "stats",
     "anti_spam",
@@ -417,7 +418,7 @@ Commands list :
 » فقط مالک گروه میتواند افراد را کیک ،بن و.... کنند
 
 MR.Bot
-Admin:MohamadAz
+Admin:@MohamadAz
 Developer:@ho3einkj
 Thanks to Use This Bot
 
